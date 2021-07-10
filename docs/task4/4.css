@@ -1,0 +1,155 @@
+.one {
+    margin-top: 0;
+}
+body {
+    background-color: antiquewhite;
+}
+
+.fangfang {
+    background-color: rgb(72, 155, 127);
+    height: 50px;
+}
+
+.left {
+    float: left;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+
+.left:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+    /* Adjusts for spacing */
+}
+
+.right:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+    /* Adjusts for spacing */
+}
+
+.center {
+    width: 60%;
+    float: left;
+    text-align: center;
+    height: 100%;
+}
+
+.right {
+    float: left;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+
+}
+
+.four {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(72, 155, 127);
+}
+
+.five {
+    float: right;
+    margin-top: 10px;
+}
+
+a {
+    color: rgb(72, 155, 127);
+}
+
+.f1 {
+    background-color: rgb(72, 155, 127);
+    display: inline-block;
+    vertical-align: middle;
+    width: 60%;
+    border:none;
+}
+.two{
+    margin-top: 10px;
+    height: 50px;
+    background-color: white;
+}
+.three{
+    margin-top: 10px;
+    height: 50px;
+    background-color:white;
+}
+.four{
+    margin-top: 10px;
+}
+.ff{
+    float: left;
+    height：10px;
+    padding-right: 10px;
+    border-right:1px solid rgb(72, 155, 127);
+    width: 10%;
+}
+.twoson1{
+
+    float:left;
+    width:9%;
+    text-align: center;
+}
+.twoson1:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; 
+  }
+  
+.twoson2{
+    float:left;
+    width:90%;
+    height: 100%;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+
+}
+
+
+.threeson1{
+    float:left;
+    width:10%;
+    text-align: center;
+  }
+  
+ 
+  .threeson1:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; 
+  }
+  
+  
+ 
+
+.threeson2{
+    float:left;
+    width:90%;
+    height: 100%;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left:none ;
+}
+img{
+width:50%;
+height:50%;
+display: inline-block;
+vertical-align: middle;
+
+}
+
