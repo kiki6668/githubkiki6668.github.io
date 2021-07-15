@@ -1,6 +1,7 @@
-div {
+.inline-block {
     display: inline-block;
 }
+
 .header {
     background-color: rgb(7, 77, 77);
     text-align: center;
@@ -10,10 +11,10 @@ div {
     z-index: 10;
 }
 
-p{
-margin-top: 10px;
-font-size:40px;
-color:white;
+p {
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
 }
 
 
@@ -27,14 +28,14 @@ color:white;
 body {
     margin: 0px;
     width: 100%;
-    min-width:370px;
+    min-width: 370px;
 }
 
 .beijing {
     width: 100%;
     margin-top: 80px;
     height: 500px;
-   
+
 }
 
 .touxiang {
@@ -47,57 +48,56 @@ body {
     position: absolute;
     top: 280px;
     left: 350px;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .nn {
     position: absolute;
     top: 350px;
     left: 380px;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .dizhi {
     position: absolute;
     top: 355px;
     left: 340px;
-    width: 30px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
 }
 
 .one {
-    width:100%;
+    width: 100%;
     height: 80px;
-    font-size:30px;
-    padding-top:0px;
-    border-bottom:1px solid;
-   
+    font-size: 30px;
+    padding-top: 0px;
+    border-bottom: 1px solid;
+
 }
 
-.zhuanye{
+.zhuanye {
     margin-left: 60px;
     margin-top: 10px;
-    padding-left:15px;
-    border-left:10px solid;
-    border-left-color:rgb(7, 77, 77)
-
+    padding-left: 15px;
+    border-left: 10px solid;
+    border-left-color: rgb(7, 77, 77)
 }
 
 
 .two {
-width:94%;
+   
     height: 80px;
     border-bottom-color: black;
     border-bottom: solid 1px;
-    margin-left:3%;
-    margin-right:3%;
-   
+    margin-left: 10px;
+    margin-right: 10px;
+
 }
 
 .twoson1 {
     margin-left: 30px;
     margin-top: 25px;
-    
+
 }
 
 .twoson2 {
@@ -106,13 +106,13 @@ width:94%;
 }
 
 .three {
-width:94%;
+    
     height: 80px;
     border-bottom-color: black;
     border-bottom: solid 1px;
-    margin-left:3%;
-    margin-right:3%;
-   
+    margin-left: 10px;
+    margin-right: 10px;
+
 }
 
 .cc1 {
@@ -128,13 +128,12 @@ width:94%;
 }
 
 .four {
-    width: 94%;
+   
     height: 80px;
     border-bottom: solid 1px;
-    margin-left: 3%;
-    margin-right:3%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-
 .dd1 {
     margin-left: 30px;
     margin-top: 25px;
@@ -148,51 +147,49 @@ width:94%;
 }
 
 .five {
-    width: 94%;
+    
     height: 80px;
     border-bottom: solid 1px;
-    margin-left: 3%;
-    margin-right:3%;
-}
-    .gg1 {
-        margin-left: 30px;
-        margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-    .gg2 {
-        margin-left: 25px;
+.gg1 {
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.gg2 {
+    margin-left: 25px;
     margin-top: 25px;
     padding-left: 17px;
     border-left: 1px solid;
 
-    }
+}
 
-    .six {
-        display: flex;
-        padding-bottom: 100px;
-        width: 94%;
-        border-bottom: solid 1px;
-        margin-left: 3%;
-        margin-right:3%;
-    
-    }
-   
-.hh1{
-    margin-left: 30px;
-        margin-top: 25px;
-    padding-right:15px;
+.six {
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.hh1 {
+    margin: 10px 0 10px 25px;
+    padding-right: 15px;
     border-right: 1px solid;
-    height:20px;
+    height: 20px;
 }
 
-.hh2{
+.hh2 {
+    margin: 10px 15px;
     flex-grow: 1;
-    margin-left: 25px;
-    margin-top: 25px;
- }
+}
 
-.h1{
-width: 80px;
+.h1 {
+    width: 80px;
 }
 
 
@@ -201,22 +198,22 @@ width: 80px;
 
 
 
-.dibu{
+.dibu {
     background-color: white;
     display: flex;
-    justify-content:space-around; 
+    justify-content: space-around;
     position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
     height: 80px;
     padding-top: 10px;
-    margin-bottom: 10px;
-    font: size 30px;
-    
+    padding-bottom: 10px;
+    font-size: 30px;
+
 }
 
-.l{
+.l {
     font-size: 30px;
     background-color: white;
     border: 1px solid #0cb6b6;
@@ -224,9 +221,10 @@ width: 80px;
     color: #0cb6b6;
     width: 47%;
     margin-left: 3%;
+    align-items: center;
 }
 
-.r{
+.r {
     font-size: 30px;
     background-color: #0cb6b6;
     border: 1px solid #0cb6b6;
@@ -234,4 +232,12 @@ width: 80px;
     color: white;
     width: 47%;
     margin-left: 3%;
-    margin-right: 3%;}
+    margin-right: 3%;
+}
+
+
+.kongbai {
+    height: 150px;
+    width: 100%;
+
+}
