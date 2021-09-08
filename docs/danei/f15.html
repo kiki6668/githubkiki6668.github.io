@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="utf-8">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+.container::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+        div {
+            border: 2px solid #000;
+        }
+
+        .left,
+        .middle,
+        .right {
+            float: left;
+        }
+
+        .left ul li {
+            border: 2px solid purple;
+            list-style: none;
+        }
+
+        @media screen and (min-width:768px) and (max-width:991px) {
+            .container {
+                width: 900px;
+                margin: 0, auto;
+            }
+
+            .left {
+                width: 30%;
+            }
+
+            .middle {
+                width: 70%;
+            }
+
+            .right {
+                display: none;
+            }
+
+            .middle img {
+                width: 25%;
+            }
+        }
+
+        @media screen and (min-width:991px) {
+            .container {
+                width: 900px;
+                margin: 0, auto;
+            }
+
+            .left {
+                width: 20%;
+            }
+
+            .middle {
+                width: 60%;
+            }
+
+            .right {
+                width: 20%;
+            }
+
+            .middle img {
+                width: 25%;
+            }
+        }
+        @media screen and (max-width:768px) {
+            .container {
+                width: 900px;
+                margin: 0, auto;
+            }
+
+            .left {
+                width: 100%;
+            }
+
+            .middle {
+                width: 100%;
+            }
+            .right {
+                width: 100%;
+            }
+
+            .middle img {
+                width: 50%;
+            }
+
+        }
+        
+            
+        
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <ul>
+                <li>豆蔻年华</li>
+                <li>豆蔻年华</li>
+                <li>豆蔻年华</li>
+                <li>豆蔻年华</li>
+            </ul>
+
+        </div>
+        <div class="middle">
+            <div class="imgs">
+                <img src="fangzi.png" /><img src="fangzi.png" /><img src="fangzi.png" /><img src="fangzi.png" />
+            </div>
+            <p>徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃
+                徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃
+                徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃
+                徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃
+                徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃
+                徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃是个傻逼傻逼
+                徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃
+                徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃
+                徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃
+                徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃是个沙比沙比
+                徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃
+                徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃
+                徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃
+                徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃是个沙皮沙皮
+                徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃
+                徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃
+                徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃
+            </p>
+        </div>
+        <div class="right">
+            <p>
+                右侧广告徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃
+                徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃
+                徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃
+                徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃
+                徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃徐昌堃
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
